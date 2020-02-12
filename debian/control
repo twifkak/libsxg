@@ -2,14 +2,14 @@ Source: libsxg
 Priority: optional
 Maintainer: Hiroki Kumazaki <kumagi@google.com>
 Build-Depends:
-         debhelper (>= 11),
+         debhelper-compat (= 12),
          cmake,
          libssl-dev,
 Standards-Version: 4.4.1
 Section: libs
-Vcs-Git: https://github.com/google/libsxg.git
-Vcs-Browser: https://github.com/google/libsxg
-Homepage: https://github.com/google/libsxg
+Vcs-Git: https://github.com/google/libsxg/tree/debian
+Vcs-Browser: https://github.com/google/libsxg/releases
+Homepage: https://google.github.io/libsxg/
 Rules-Requires-Root: no
 
 Package: libsxg0
